@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="styless.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="logo">
+          <img
+            src="images/onlinelogomaker-090921-2058-0785-2000-transparent.png"
+            alt="logo"
+            id="logo"
+          />
+        </div>
+        <div class="image"></div>
+        <div class="text">
+          Get started For Free <br />
+          By Registering Now
+        </div>
+      </div>
+
+      <form id="form">
+        <div class="social">
+          <div class="title">Get started</div>
+          <div class="question">Already have an account ?</div>
+          <span>Sign In</span>
+          <div class="btn">
+            <div class="btn-1">
+              <img
+                src="https://img.icons8.com/color/30/000000/google-logo.png"
+              />
+              Sign Up
+            </div>
+            <div class="btn-2">
+              <img
+                src="https://img.icons8.com/ios-filled/30/ffffff/facebook-new.png"
+              />
+              Sign Up
+            </div>
+          </div>
+          <div class="or">Or</div>
+        </div>
+
+        <!--Username input here-->
+        <div>
+          <label for="username"> Username </label>
+          <i class="fa fa-user" aria-hidden="true"></i>
+          <input
+            type="text"
+            name="username"
+            id="username"
+            placeholder="Tom Cruise"
+          />
+          <i
+            class="fa fa-exclamation-circle failureicon"
+            aria-hidden="true"
+          ></i>
+          <i class="fa fa-check-circle successicon" aria-hidden="true"></i>
+          <div class="error"></div>
+        </div>
+
+        <!--Email input here-->
+        <div>
+          <label for="email"> Email </label>
+          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          <input
+            type="text"
+            name="username"
+            id="email"
+            placeholder="fgh20@gmail.com"
+          />
+          <i
+            class="fa fa-exclamation-circle failureicon"
+            aria-hidden="true"
+          ></i>
+          <i class="fa fa-check-circle successicon" aria-hidden="true"></i>
+          <div class="error"></div>
+        </div>
+        <!--Password input here-->
+        <div>
+          <label for="password">Password </label>
+          <i class="fa fa-lock" aria-hidden="true"></i>
+          <input
+            type="password"
+            name="Password"
+            id="Password"
+            placeholder="Enter Password"
+          />
+          <i
+            class="fa fa-exclamation-circle failureicon"
+            aria-hidden="true"
+          ></i>
+          <i class="fa fa-check-circle successicon" aria-hidden="true"></i>
+          <div class="error"></div>
+        </div>
+        <button type="submit" id="suv">Submit</button>
+      </form>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
